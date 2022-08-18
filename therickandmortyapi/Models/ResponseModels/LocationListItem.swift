@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct LocationListItem: Decodable {
+struct LocationListItem: Decodable, Identifiable {
     let id: Int
     let name: String
     let type: String
