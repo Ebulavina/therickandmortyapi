@@ -35,7 +35,7 @@
 		7197EC8F28AA35A600ACB1B1 /* LocationCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC8E28AA35A600ACB1B1 /* LocationCard.swift */; };
 		7197EC9128AA360200ACB1B1 /* EpisodeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9028AA360200ACB1B1 /* EpisodeCard.swift */; };
 		7197EC9428AA373D00ACB1B1 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9328AA373D00ACB1B1 /* CharacterCardView.swift */; };
-		7197EC9728AA37CB00ACB1B1 /* LocationCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9628AA37CB00ACB1B1 /* LocationCardView.swift */; };
+		7197EC9728AA37CB00ACB1B1 /* LocationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */; };
 		7197EC9A28AA38D800ACB1B1 /* EpisodeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9928AA38D800ACB1B1 /* EpisodeCardView.swift */; };
 /* End PBXBuildFile section */
 
@@ -88,7 +88,7 @@
 		7197EC8E28AA35A600ACB1B1 /* LocationCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCard.swift; sourceTree = "<group>"; };
 		7197EC9028AA360200ACB1B1 /* EpisodeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCard.swift; sourceTree = "<group>"; };
 		7197EC9328AA373D00ACB1B1 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
-		7197EC9628AA37CB00ACB1B1 /* LocationCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationCardView.swift; sourceTree = "<group>"; };
+		7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListRowView.swift; sourceTree = "<group>"; };
 		7197EC9928AA38D800ACB1B1 /* EpisodeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCardView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -228,7 +228,7 @@
 			isa = PBXGroup;
 			children = (
 				7197EC8428A273D200ACB1B1 /* LocationsViewModel.swift */,
-				7197EC9628AA37CB00ACB1B1 /* LocationCardView.swift */,
+				7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */,
 				7197EC79289FE94F00ACB1B1 /* LocationsView.swift */,
 			);
 			path = Locations;
@@ -383,7 +383,7 @@
 				7197EC5F2897F81600ACB1B1 /* CharacterListItem.swift in Sources */,
 				7197EC7A289FE94F00ACB1B1 /* LocationsView.swift in Sources */,
 				7197EC632897F94A00ACB1B1 /* Location.swift in Sources */,
-				7197EC9728AA37CB00ACB1B1 /* LocationCardView.swift in Sources */,
+				7197EC9728AA37CB00ACB1B1 /* LocationListRowView.swift in Sources */,
 				7197EC652897F9D400ACB1B1 /* Info.swift in Sources */,
 				7197EC8528A273D200ACB1B1 /* LocationsViewModel.swift in Sources */,
 				7166038A2897CC4F00062F99 /* therickandmortyapiApp.swift in Sources */,

@@ -11,9 +11,9 @@ struct LocationsView: View {
     @ObservedObject var resources = LocationsViewModel()
 
     var body: some View {
-        VStack {
+        List {
             ForEach(resources.locations) { model in
-                LocationCardView(model)
+                LocationListRowView(model)
             }
         }.onAppear {
             resources.fetchLocations()
