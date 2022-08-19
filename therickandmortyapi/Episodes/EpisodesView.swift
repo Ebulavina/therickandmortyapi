@@ -11,9 +11,9 @@ struct EpisodesView: View {
     @ObservedObject var resources = EpisodesViewModel()
 
     var body: some View {
-        VStack {
+        List {
             ForEach(resources.episodes) { model in
-                EpisodeCardView(model)
+                EpisodeListRowView(model)
             }
         }.onAppear {
             resources.fetchEpisodes()

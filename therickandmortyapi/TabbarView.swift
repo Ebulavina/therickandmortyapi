@@ -8,8 +8,10 @@
 import SwiftUI
 
 struct TabbarView: View {
+    @State private var selectedTab = 0
+    
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab) {
             CharactersView()
                 .tabItem {
                     Label("Characters", systemImage: "person.2")

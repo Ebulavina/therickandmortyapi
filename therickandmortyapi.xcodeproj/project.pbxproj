@@ -36,7 +36,7 @@
 		7197EC9128AA360200ACB1B1 /* EpisodeCard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9028AA360200ACB1B1 /* EpisodeCard.swift */; };
 		7197EC9428AA373D00ACB1B1 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9328AA373D00ACB1B1 /* CharacterCardView.swift */; };
 		7197EC9728AA37CB00ACB1B1 /* LocationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */; };
-		7197EC9A28AA38D800ACB1B1 /* EpisodeCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9928AA38D800ACB1B1 /* EpisodeCardView.swift */; };
+		7197EC9A28AA38D800ACB1B1 /* EpisodeListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9928AA38D800ACB1B1 /* EpisodeListRowView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,7 +89,7 @@
 		7197EC9028AA360200ACB1B1 /* EpisodeCard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCard.swift; sourceTree = "<group>"; };
 		7197EC9328AA373D00ACB1B1 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
 		7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListRowView.swift; sourceTree = "<group>"; };
-		7197EC9928AA38D800ACB1B1 /* EpisodeCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeCardView.swift; sourceTree = "<group>"; };
+		7197EC9928AA38D800ACB1B1 /* EpisodeListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListRowView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -239,7 +239,7 @@
 			children = (
 				7197EC8628A2755D00ACB1B1 /* EpisodesViewModel.swift */,
 				7197EC7B289FE9AD00ACB1B1 /* EpisodesView.swift */,
-				7197EC9928AA38D800ACB1B1 /* EpisodeCardView.swift */,
+				7197EC9928AA38D800ACB1B1 /* EpisodeListRowView.swift */,
 			);
 			path = Episodes;
 			sourceTree = "<group>";
@@ -390,7 +390,7 @@
 				7197EC9428AA373D00ACB1B1 /* CharacterCardView.swift in Sources */,
 				7197EC8728A2755D00ACB1B1 /* EpisodesViewModel.swift in Sources */,
 				7197EC742899168F00ACB1B1 /* DateDecoder.swift in Sources */,
-				7197EC9A28AA38D800ACB1B1 /* EpisodeCardView.swift in Sources */,
+				7197EC9A28AA38D800ACB1B1 /* EpisodeListRowView.swift in Sources */,
 				7197EC8F28AA35A600ACB1B1 /* LocationCard.swift in Sources */,
 				7197EC8D28AA358B00ACB1B1 /* CharacterCard.swift in Sources */,
 				7197EC6A2897FBB900ACB1B1 /* ApiService.swift in Sources */,
