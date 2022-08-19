@@ -22,11 +22,11 @@ struct CharacterCardView: View {
                 } placeholder: {
                     ProgressView()
                 }
-                .frame(height: Constants.imageHeight)
+                .frame(width: Constants.imageSize, height: Constants.imageSize)
             } else {
                 Rectangle()
                     .fill(.gray)
-                    .frame(height: Constants.imageHeight)
+                    .frame(width: Constants.imageSize, height: Constants.imageSize)
             }
             
             VStack(alignment: .leading) {
@@ -41,13 +41,18 @@ struct CharacterCardView: View {
         .cornerRadius(Constants.cornerRadius)
         .overlay(
             RoundedRectangle(cornerRadius: Constants.cornerRadius)
-                .stroke(Color(.sRGB, red: 150/255, green: 150/255, blue: 150/255, opacity: 0.1), lineWidth: 1)
+                .stroke(
+                    Constants.grayColor.opacity(Constants.opacity),
+                    lineWidth: 1
+                )
         )
     }
     
     struct Constants {
         static let cornerRadius: CGFloat = 10
-        static let imageHeight: CGFloat = UIScreen.main.bounds.width/2
+        static let imageSize: CGFloat = UIScreen.main.bounds.width/2 - 15
+        static let grayColor = Color.gray
+        static let opacity: CGFloat = 0.1
     }
 }
 
