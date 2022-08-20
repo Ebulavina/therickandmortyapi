@@ -11,12 +11,21 @@ struct LocationsView: View {
     @ObservedObject var resources = LocationsViewModel()
 
     var body: some View {
-        List {
-            ForEach(resources.locations) { model in
-                LocationListRowView(model)
+        NavigationView {
+            List {
+                ForEach(resources.locations) { model in
+                    NavigationLink(
+                        destination: LocationDetailView(model),
+                        label: {
+                            LocationListRowView(model)
+                        }
+                    )
+                }
             }
-        }.onAppear {
-            resources.fetchLocations()
+            .navigationTitle("Locations")
+            .onAppear {
+                resources.fetchLocations()
+            }
         }
     }
 }

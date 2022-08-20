@@ -28,9 +28,3 @@ struct LocationListRowView: View {
         static let padding: CGFloat = 10
     }
 }
-
-struct LocationCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        LocationListRowView(LocationCard(id: 1, name: "name", type:"Human"))
-    }
-}

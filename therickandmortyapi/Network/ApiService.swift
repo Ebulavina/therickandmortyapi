@@ -12,6 +12,8 @@ protocol ApiServiceProtocol {
     func getCharacters() -> AnyPublisher<Characters, Error>
     func getLocations() -> AnyPublisher<Locations, Error>
     func getEpisodes() -> AnyPublisher<Episodes, Error>
+    
+    func getLocation(id: String) -> AnyPublisher<LocationListItem, Error>
 }
 
 class ApiService: ApiServiceProtocol {
@@ -23,6 +25,10 @@ class ApiService: ApiServiceProtocol {
     
     func getLocations() -> AnyPublisher<Locations, Error> {
         getData(endPoint: "location", resource: Locations.self)
+    }
+    
+    func getLocation(id: String) -> AnyPublisher<LocationListItem, Error> {
+        getData(endPoint: "location/\(id)", resource: LocationListItem.self)
     }
     
     func getEpisodes() -> AnyPublisher<Episodes, Error> {

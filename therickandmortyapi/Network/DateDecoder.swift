@@ -15,4 +15,11 @@ class DateDecoder {
         decoder.dateDecodingStrategy = .formatted(dateFormatter)
         return decoder
     }
+    
+    static func dateToString(_ date: Date) -> String {
+        let dateFormatter = DateFormatter()
+        dateFormatter.dateFormat = "yyyy-MM-dd"
+        return dateFormatter.string(from: date)
+    }
 }
+

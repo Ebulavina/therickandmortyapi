@@ -37,6 +37,8 @@
 		7197EC9428AA373D00ACB1B1 /* CharacterCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9328AA373D00ACB1B1 /* CharacterCardView.swift */; };
 		7197EC9728AA37CB00ACB1B1 /* LocationListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */; };
 		7197EC9A28AA38D800ACB1B1 /* EpisodeListRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9928AA38D800ACB1B1 /* EpisodeListRowView.swift */; };
+		7197EC9C28B0EF2F00ACB1B1 /* LocationDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9B28B0EF2E00ACB1B1 /* LocationDetailView.swift */; };
+		7197EC9E28B0F21A00ACB1B1 /* LocationViewModal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7197EC9D28B0F21A00ACB1B1 /* LocationViewModal.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -90,6 +92,8 @@
 		7197EC9328AA373D00ACB1B1 /* CharacterCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterCardView.swift; sourceTree = "<group>"; };
 		7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationListRowView.swift; sourceTree = "<group>"; };
 		7197EC9928AA38D800ACB1B1 /* EpisodeListRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EpisodeListRowView.swift; sourceTree = "<group>"; };
+		7197EC9B28B0EF2E00ACB1B1 /* LocationDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationDetailView.swift; sourceTree = "<group>"; };
+		7197EC9D28B0F21A00ACB1B1 /* LocationViewModal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationViewModal.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -229,7 +233,9 @@
 			children = (
 				7197EC8428A273D200ACB1B1 /* LocationsViewModel.swift */,
 				7197EC9628AA37CB00ACB1B1 /* LocationListRowView.swift */,
+				7197EC9D28B0F21A00ACB1B1 /* LocationViewModal.swift */,
 				7197EC79289FE94F00ACB1B1 /* LocationsView.swift */,
+				7197EC9B28B0EF2E00ACB1B1 /* LocationDetailView.swift */,
 			);
 			path = Locations;
 			sourceTree = "<group>";
@@ -380,10 +386,12 @@
 				7197EC8328A2735800ACB1B1 /* CharactersViewModel.swift in Sources */,
 				7197EC672897FA6700ACB1B1 /* Characters.swift in Sources */,
 				7197EC9128AA360200ACB1B1 /* EpisodeCard.swift in Sources */,
+				7197EC9E28B0F21A00ACB1B1 /* LocationViewModal.swift in Sources */,
 				7197EC5F2897F81600ACB1B1 /* CharacterListItem.swift in Sources */,
 				7197EC7A289FE94F00ACB1B1 /* LocationsView.swift in Sources */,
 				7197EC632897F94A00ACB1B1 /* Location.swift in Sources */,
 				7197EC9728AA37CB00ACB1B1 /* LocationListRowView.swift in Sources */,
+				7197EC9C28B0EF2F00ACB1B1 /* LocationDetailView.swift in Sources */,
 				7197EC652897F9D400ACB1B1 /* Info.swift in Sources */,
 				7197EC8528A273D200ACB1B1 /* LocationsViewModel.swift in Sources */,
 				7166038A2897CC4F00062F99 /* therickandmortyapiApp.swift in Sources */,
