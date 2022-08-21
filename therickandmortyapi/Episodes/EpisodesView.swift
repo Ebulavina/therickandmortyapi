@@ -11,12 +11,21 @@ struct EpisodesView: View {
     @ObservedObject var resources = EpisodesViewModel()
 
     var body: some View {
-        List {
-            ForEach(resources.episodes) { model in
-                EpisodeListRowView(model)
+        NavigationView {
+            List {
+                ForEach(resources.episodes) { model in
+                    NavigationLink(
+                        destination: EpisodeDetailView(model),
+                        label: {
+                            EpisodeListRowView(model)
+                        }
+                    )
+                }
             }
-        }.onAppear {
-            resources.fetchEpisodes()
+            .navigationTitle("Episodes")
+            .onAppear {
+                resources.fetchEpisodes()
+            }
         }
     }
 }

@@ -55,21 +55,6 @@ struct LocationDetailView: View {
     }
 }
 
-struct InfoRowView: View {
-    let label: String
-    let icon: String
-    let value: String?
-    
-    var body: some View {
-        HStack {
-            Label(label, systemImage: icon)
-            Spacer()
-            Text(value ?? "")
-                .fontWeight(.semibold)
-        }
-    }
-}
-
 struct LocationDetailView_Previews: PreviewProvider {
     static var previews: some View {
         LocationDetailView(LocationCard(id: 1, name: "name", type:"Human", dimension: "dimension", created: Date.now, residents: []))
