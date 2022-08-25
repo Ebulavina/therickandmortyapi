@@ -32,6 +32,7 @@ struct CharacterCardView: View {
             VStack(alignment: .leading) {
                 Text(model.name)
                     .lineLimit(1)
+                    .foregroundColor(.primary)
                 Text(model.species)
                     .font(.caption)
                     .foregroundColor(.secondary)
@@ -53,12 +54,6 @@ struct CharacterCardView: View {
         static let imageSize: CGFloat = UIScreen.main.bounds.width/2 - 15
         static let grayColor = Color.gray
         static let opacity: CGFloat = 0.1
-    }
-}
-
-struct CharacterCardView_Previews: PreviewProvider {
-    static var previews: some View {
-        CharacterCardView(CharacterCard(id: 1, name: "name", image: nil, species: "Human"))
     }
 }
 
